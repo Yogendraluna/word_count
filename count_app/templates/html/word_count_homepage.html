@@ -1,0 +1,14 @@
+{% extends 'html/base.html' %}
+
+{% block content %}
+  
+
+  <div class="text_form">
+    <form action="/count/" method="post">
+      {% csrf_token %}
+      <input type="text" name="content" />
+      <br /><br />
+       <input type="submit" value="Count!" />
+    </form>
+  </div>
+{% endblock %}

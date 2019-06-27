@@ -1,0 +1,15 @@
+h1 {
+  color:  #48c9b0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-header {
+  background-color: #fdfefe;
+  margin-top: inherit;
+  padding: 20px 20px 20px 40px;
+  text-align: center;
+}
+
+.text_form {
+  text-align: center;
+}
