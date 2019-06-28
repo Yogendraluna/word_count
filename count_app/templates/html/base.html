@@ -5,19 +5,29 @@
     <title>
       Word Count
     </title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <div class="page-header">
       <h1><text-center>Word Count</text-center></h1>
     </div>
-    
-    <div>
-      {% block content %}
-      {% endblock %}
+
+    <div class="card">
+      <div class="card-body">
+        <div class="text_form">
+          <div>
+            {% block content %}
+            {% endblock %}
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
